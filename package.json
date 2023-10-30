@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "scripts": {
+    "build:prod": "tailwindcss -i ./global.css -o ./dist/assets/global.css && cp -r index.html ./dist/index.html"
+  },
   "devDependencies": {
     "tailwindcss": "^3.3.5"
   }
