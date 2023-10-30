@@ -810,7 +810,7 @@ video {
 }
 
 body {
-  font-family: "Fira Code", monospace;
+  font-family: "Fira Code", monospace antialiased;
 }
 
 .hover\:-translate-y-2:hover {
